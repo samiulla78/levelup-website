@@ -1,0 +1,506 @@
+   /*----------------------------------------------------------- navber start(home css)---------------------------------------------------------- */
+   .hell
+   {
+       margin-bottom: 40px;
+       margin-left: 0px;
+       
+   }
+   
+   .x{
+       padding-top:25px;
+       margin-left: -20px;
+   }
+   *{
+       margin: 0px;
+       padding: 0px;
+   
+       
+   }
+   
+       
+     
+    
+   #g
+   {
+       position: relative;
+       margin-right:0px;
+       overflow: hidden; 
+    }
+   #g::before
+   {
+       content: '';
+       position:absolute;
+       left: 100%;
+       width: 120%;
+       height: 100%;
+       background:linear-gradient(100deg,transparent 0%, rgb(189, 177, 195) 5%,rgb(209, 181, 246) 100%);
+   animation: animate 5.5s linear forwards;
+   animation-delay: 2s;
+   
+   }
+   @keyframes animate
+   {
+       0%
+       {
+           left: -40px;
+       }
+       100%
+       {
+           left: 110%;
+       }
+   
+   
+   }
+   /* .a
+   { 
+   
+   background:  linear-gradient(100deg,#fac9cc,#FFE6FF); 
+   
+   } */
+   
+   .container-fluid{
+       background-color: #c9b6d7;
+   }
+   
+   *{
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+       
+   }
+   
+   /*--------------------------------------------------------------- navber end------------------------------------------------------------- */
+   body{
+     
+        overflow-x: hidden;
+        max-width: 100%;
+        background: linear-gradient(100deg,#fac9cc,#f5f4f5); 
+   }  
+   .img{
+       width: 45%;
+       height: 40%;
+       margin-left: 8%;
+       margin-top: 0%;
+      
+   }
+    .butt_out{
+     
+       background-color: orangered;
+       color: wheat;
+       width: 150px;
+       border: 2px solid#fff;
+       border-radius: 60px;
+       font-weight: bold;
+       font-size: large;
+       padding: 5px;
+       height: 50px;
+       -webkit-box-shadow:0px 10px 49px -14px rgba(0,0,0,0.2);
+       -moz-box-shadow:0px 10px 49px -14px rgba(0,0,0,0.2);
+       box-shadow:0px 10px 49px -14px rgba(0,0,0,0.2);
+   
+   
+   }
+   .butt_out:hover{
+       border: 2px solid#eecbff;
+   }
+   .butt_out:focus{
+       outline: none;
+   } 
+   
+   .photos{
+       display: flex;
+       flex-direction: row;
+      
+       
+       
+   }
+   .photos a img{
+      
+       
+       width:160px; 
+       border-radius: 60px;
+       height:40px ;
+      
+      
+   } 
+   .photos img:hover{
+    
+       width:180px;
+       border-radius: 60px;
+       height:60px ;
+   }
+   .photos img:focus{
+       outline:none;
+   }
+   .container-fluid{
+       padding-bottom: 25px;
+      
+       background-repeat: no-repeat;
+       
+   }
+   
+   
+    .intel{
+       gap: 50px;
+       justify-content: center;
+       text-align: center;
+   } 
+   
+   .col-md-3{
+       /* border: 1px solid#fff; */
+       border-radius: 10px;
+       /* width: 20%; */
+       /* background-color: white; */
+       flex-direction: row;
+       -webkit-box-shadow:0px 10px 49px -14px rgba(0,0,0,0.2);
+       -moz-box-shadow:0px 10px 49px -14px rgba(0,0,0,0.5);
+       box-shadow:0px 10px 49px -14px rgba(0,0,0,0.5); 
+       margin: 3%;
+       
+   }
+   
+    
+   .col-mb-3 img{
+       margin-top: 15%;
+    margin-left: 15%;
+   }
+   .learn{
+       justify-content: center; 
+       text-align: center;
+       display: flex;
+   }
+   
+   
+      .col-md-4{
+        
+       background:  white;
+       margin-left: 33%;
+      }
+   /* enquary from start--------------------------------------------------------------------------------------------------------------------- */
+   
+   .man{
+       width: 550px;
+       height: 600px;
+       overflow: hidden;
+   }
+   .sign 
+   {
+       position: relative;
+   }
+   .sign label
+   {
+       cursor: pointer;
+       transition: .5s ease-in-out;
+       border-radius: 20px;
+       background-color:orangered ;
+   }
+   .sign label:hover{
+       border: 1px solid white;
+   } 
+   .k{
+       width: 350px;
+   }
+   .log 
+   {
+       /* background:linear-gradient(100deg,#fac9cc,#ecd8da);   */
+       background:#ecd1d3; 
+       border-radius: 60% / 0%;
+       transition: .8s ease-in-out;
+       width: 60%;
+       height: 80%; 
+   }
+   
+   .she{
+       cursor: pointer;
+       transition: .5s ease-in-out;
+       transform: scale(.6);
+       color:#573b8a;
+   }
+   .log button
+   {
+       background: orangered;
+       border-radius: 100px;
+   }
+   #ch:checked ~ .log{
+       transform: translateY(-550px);
+   }
+   #ch:checked ~ .log label{
+       transform: scale(1);
+   }
+   #ch:checked ~ .sign label{
+       transform: scale(.6);
+   } 
+   /* enquary from end ---------------------------------------------------------------------------------------------------------------------*/
+   
+      @media screen and (width <=600px) { 
+       /* @media all and (max-width: 479px) { */
+        html,
+       body {
+        overflow-x: hidden;
+        max-width: 100%;
+       } 
+       .photos{
+           margin-left: 25%;  
+           flex-direction: column; 
+           gap: 50px;
+       } 
+       /* .myLeftCtn{
+           margin-left: 2%;
+           width: 100%;
+           justify-content: center;
+           text-align: center;
+       } */
+       .img{
+           width: 80%;
+       }
+       .intel{
+           width:100% ;   
+       }
+       .col-md-3{
+        margin-left: 5%;
+       } 
+       .navbar-toggler{
+           margin-left: 90%;
+       }
+       .collapse {
+           margin-left: 10%;
+           width: 80%;
+       }
+      .inter{
+       flex-direction: column;
+      }
+      .h{
+       width: 250px;
+      }
+   .col-md-4{
+           margin-left: 0px;
+             }
+   .man{
+   width:100%; 
+   
+   margin-top: 30px; 
+     
+   /* margin-right: 0px;     */
+   }
+   .k{
+    width: 100%; 
+   }
+   .log{
+    width: 100%; 
+   }
+   .sign label{
+       margin: 0px;
+       width: 60%; 
+   } 
+   .log label{
+       width: 100%;
+       margin-left: 5%;
+       /* justify-content: center;
+       text-align: center; */
+   }
+   .bg
+   {
+       margin-top: 10px;
+   }
+   .log button
+   {
+       width: 100%;
+   }
+   .l{
+       width: 100%;
+   }
+   }
+   /* form */
+   
+   @media all and (min-width: 768px) {
+       html,
+       body {
+         /* justify-content: center; */
+        overflow-x: hidden;
+        max-width: 100%;
+   
+       } 
+       .navbar{
+           width: auto;
+       }
+       .intel{
+           gap: 0px;
+       }
+   
+   }
+   
+   
+   /* ***********************************************************************************************************************************8 */
+   /* **********************************************************(courses css)************************************************************************** */
+   
+   *{
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+       
+   }
+   
+   
+   .d-inline{
+   font-size: 60px;
+   }
+   .shift{
+       color:#573b8a;
+   }
+   
+   
+   
+   .col-md-3{
+       border: 1px solidrgb(109, 105, 105);
+       /* border-radius: 40px; */
+       /* width: 20%; */
+       background-color: white;
+       flex-direction: row;
+       -webkit-box-shadow:0px 10px 49px -14px rgba(0,0,0,0.2);
+       -moz-box-shadow:0px 10px 49px -14px rgba(0,0,0,0.5);
+       box-shadow:0px 10px 49px -14px rgba(0,0,0,0.5); 
+       margin: 3%;
+       
+   } 
+   
+    
+   
+   @media screen and (width <=600px) {
+       html,
+      body {
+        /* justify-content: center; */
+       overflow-x: hidden;
+       max-width: 100%;
+      }
+    .d-inline{
+       width: 30px;
+       font-size: 20px;  
+    }
+   }
+   /* ************************************************************************************************************************************* */
+   /* ***************************************************************(contact us css)************************************************************************* */
+   
+   *{
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+       
+   }
+   
+   .d-inline{
+   font-size: 60px;
+   }
+   .shift{
+       color:#573b8a;
+   }
+   
+    .lo button
+   {
+       background: orangered;
+       border-radius: 100px;
+   } 
+   
+   
+   @media screen and (width <=600px) {
+       html,
+      body {
+     
+       overflow-x: hidden;
+       max-width: 100%;
+   
+      }
+   
+    .d-inline{
+       width: 30px;
+       font-size: 20px;
+       
+    }
+    
+   
+   }
+   /* ************************************************************************************************************************************* */
+   /* ***************************************************************(sigin css)************************************************************************* */
+   
+   *{
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+       
+   }
+   
+   .main
+   {
+       width: 450px;
+       height: 520px;
+       overflow: hidden;
+        border: 1px solid black;
+        background-color: white;
+   } 
+   .chk{
+       display: none;
+   } 
+   .signup 
+   {
+       position: relative;
+       width: 80%;
+       height: 100%;
+     
+   }
+   .web
+   {
+       color:blue;
+       cursor: pointer;
+       transition: .5s ease-in-out;
+   }
+    .w 
+   {
+       cursor: pointer;
+       transition: .5s ease-in-out; 
+   } 
+   .men
+   {
+       background: orangered;
+       border-radius: 100px;
+       transition: .2s ease-in;
+       cursor: pointer;
+   }
+   .login 
+   {
+      
+       transform: translateY(-45px); 
+       transition: .8s ease-in-out;
+   }
+   .i{
+       color:#573b8a;
+       cursor: pointer;
+       transition: .5s ease-in-out;
+       transform: scale(.6);
+   }
+   .chk:checked ~ .login{
+       transform: translateY(-515px);
+   
+   }
+   .chk:checked ~ .login .web{
+       transform: scale(1);
+   
+   }
+   .chk:checked ~ .signup .web{
+       transform: scale(.6);
+   }
+   
+   @media screen and (width <=600px) {
+       html,
+      body {
+       overflow-x: hidden;
+       max-width: 100%;
+   
+      } 
+      .main{
+       margin-left: 0px;
+       width:100%;
+   }
+   .form-check-label{
+       margin-left: 8px;
+   }
+   
+   }
